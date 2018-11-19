@@ -1,4 +1,4 @@
-# 8700K-AsusZ370I-UHD630 for macOS HighSierra/Sierra
+# 8700K-AsusZ370I-UHD630 for macOS Mojave
 ## 硬件配置
 | 硬件 | 型号 | 价格 | 入手 |
 | --- | --- | --- | --- |
@@ -13,10 +13,9 @@
 | 线材 | 飞利浦 DP线1.2版 4K高清线 | ￥52 | 京东 |
 
 ## Install Info
-* HighSierra无法安装在PM981上，看大家都说无法正常在10.13上工作
-* BIOS设置关闭CSM，DMVT设为128MB（不要再放[IntelGraphicsDVMTFixup](https://github.com/BarbaraPalvin/IntelGraphicsDVMTFixup)，会导致分辨率不正常）
-* 机型需要设置为iMac17.1 / iMac18.1, iMac18.3显卡无法正常工作，拖动卡顿或者说有残影
-* 驱动显卡勾选Intel Inject+[IntelGraphicsFixup](https://github.com/lvs1974/IntelGraphicsFixup)即可
+* HighSierra无法安装在PM981上，看大家都说无法正常在10.13上工作，理论上10.14也该也还是不可以，我是安装在BX300上的
+* 机型设置为iMac18.1, Macmini8,1都可以
+* UHD630在10.14.1原生驱动，不需要添加任何驱动，也不需要在Clover配置，睡眠DP音频都没问题
 * 声卡驱动使用[AppleALC](https://github.com/vit9696/AppleALC)+[Lilu](https://github.com/vit9696/Lilu)，Clover注入ID 5
 
 
