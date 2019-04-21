@@ -20,4 +20,8 @@
 
 
 
+## 2019.04.21
 
+- Update clover to v4901
+
+- 更换机型为Mac mini8
