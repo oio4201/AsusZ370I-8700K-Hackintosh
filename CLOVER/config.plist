@@ -698,8 +698,10 @@
 			<string>Preboot</string>
 			<string>Recovery</string>
 			<string>WindowsFile</string>
+			<string>WindowsData</string>
 			<string>Windows10</string>
 			<string>EFI_SAM</string>
+			<string>legacy</string>
 		</array>
 		<key>Language</key>
 		<string>en:0</string>
@@ -712,6 +714,8 @@
 		<dict>
 			<key>Entries</key>
 			<true/>
+			<key>Legacy</key>
+			<false/>
 			<key>Linux</key>
 			<true/>
 			<key>Tool</key>
@@ -722,7 +726,7 @@
 		<key>ShowOptimus</key>
 		<false/>
 		<key>Theme</key>
-		<string>Simple Theme Dark</string>
+		<string>Catalina</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
